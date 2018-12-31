@@ -1,0 +1,47 @@
+[1] "Taylor"            "0.804487335025981"
+[1] "Full"                "-0.0200467289032597"
+[1] "50s"                "-0.175854249354186"
+[1] "60s"                "-0.390399887692379"
+[1] "70s"                "-0.081094000750179"
+[1] "80s"               "0.434521018780626"
+[1] "90s"              "0.79594742396916"
+[1] "00s"               "0.862757035994362"
+[1] "10s"               "0.969399674487547"
+[1] -0.02868311
+
+	Welch Two Sample t-test
+
+data:  X and Y
+t = 24.308, df = 1774, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.07702835 0.09054970
+sample estimates:
+   mean of x    mean of y 
+0.0839589703 0.0001699455 
+
+
+	One Sample t-test
+
+data:  Z
+t = 39.327, df = 999, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.07960814 0.08796991
+sample estimates:
+ mean of x 
+0.08378902 
+
+
+	One Sample t-test
+
+data:  X
+t = -253.92, df = 999, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0.8044873
+95 percent confidence interval:
+ 0.07839052 0.08952742
+sample estimates:
+ mean of x 
+0.08395897 
+
+[1] 0.4166832
