@@ -1,0 +1,512 @@
+install.packages("gdata")
+require(gdata)
+installed.packages("xlsx")
+library(xlsx)
+seq(2,10,2)
+seq(2,10,2)
+rep(3,3)
+rep(seq(3,9,3),each=2)
+rep(seq(3,9,3),each=2,length.out=9)
+ls()
+ls()
+a<-1:6
+a
+ls()
+rm(a)
+ls()
+a<-vector()
+a
+a[1]=2
+a[1]
+rm(list=ls())
+x<-1:6
+mode(x)
+class(x)
+?mode
+?class
+c<-vector(0)
+c<-vector(0)
+c<-(vector=0)
+c
+c<-c(c,"a")
+c
+c<-vector()
+c
+a<-c(1,2,3,4)
+a
+a[-2]
+a[c(-2,-3)]
+x<-func(){
+a<-seq(20,858,2)
+for(i in 1:length(a)){
+if(a[i]%3==0){
+a[i]=a[i]/3
+}
+}
+}
+x()
+x<-function(){
+a<-seq(20,858,2)
+for(i in 1:length(a)){
+if(a[i]%3==0){
+a[i]=a[i]/3
+}
+}
+}
+x()
+x<-function()
+{
+a<-seq(20,858,2)
+for(i in 1:length(a)){
+if(a[i]%3==0){
+a[i]=a[i]/3
+}
+}
+}
+x()
+x<-function()
+{
+a<-seq(20,858,2)
+for(i in 1:length(a)){
+if(a[i]%3==0){
+a[i]=a[i]/3
+}
+}
+}
+install.packages("ggplot2")
+library(ggplot2)
+?`ggplot2-package`
+diamonds<-as.data.frame(diamonds)
+head(diamonds)
+ggplot(data = diamonds,aes(x=carat,y=price))+
+geom_point()
+?ggplot
+diamonds$surafce_area<-diamonds$x*diamonds$y
+diamonds$surafce_area
+head(diamonds)
+head(diamonds)
+ggplot(data = diamonds,aes(x=surafce_area,y=price,color=color,size=.1))+geom_point()
+diamonds[diamonds$surafce_area>150,]
+diamonds<-diamonds[-diamonds$surafce_area>150,]
+ggplot(data = diamonds,aes(x=surafce_area,y=price,color=color,size=.1))+geom_point()
+ggplot(data = diamonds,aes(x=surafce_area,y=price,color=color,size=.1))+geom_point()
+diamonds[diamonds$surafce_area>150,]
+ggplot(data = diamonds,aes(x=surafce_area,y=price,color=color,size=.1))+geom_point()
+diamonds$surafce_area
+diamonds<-as.data.frame(diamonds)
+diamonds$surafce_area<-diamonds$x*diamonds$y
+ggplot(data = diamonds,aes(x=surafce_area,y=price,color=color,size=.1))+geom_point()
+diamonds$surafce_area
+diammonds
+diamonds
+diamonds$surafce_area
+diamonds[diamonds$surafce_area>150,]
+diamonds
+diamonds<-as.data.frame(diamonds)
+diamonds
+library(ggplot2)
+as.data.frame("diamonds")
+as.data.frame("diamond")
+as.data.frame("diamonds")
+remove.packages(ggplot)
+remove.packages('ggplot')
+remove.packages('ggplot2')
+install.packages('ggplot2')
+install.packages("ggplot2")
+library(ggplot2)
+as.data.frame(diamonds)
+head(diamonds)
+diamonds<-as.data.frame(diamonds)
+head(diamonds)
+diamonds$surface_area<-diamonds$x*diamonds$y
+diamonds$surface_area
+lmMode<-lm(price~surface_area,data=diamonds)
+lmMode
+summary(lmMode)
+lmMode<-lm(weight~surface_area,data=diamonds)
+head(diamonds)
+lmMode<-lm(carat~surface_area,data=diamonds)
+summary(lmMode)
+x<--0.3783+0.03448*50
+x
+install.packages("qdap")
+library(qdap)
+library(qdap)
+library(qdap)
+a="lakshay lakshay hghggg "
+freq_terms(a,2)
+##################sample mean vs theoritical mean
+s<-c("H","T")
+X_coin<-sample(s,size=100,replace=TRUE)
+for(i in 1:1000){
+sample_means[i] = mean(rexp(40,0.2))
+}
+##################sample mean vs theoritical mean
+sample_means=rep(NA,1000)
+s<-c("H","T")
+X_coin<-sample(s,size=100,replace=TRUE)
+for(i in 1:1000){
+sample_means[i] = mean(rexp(40,0.2))
+}
+tm<-1/0.2
+sm<-mean(sample_means)
+#########################################33plotting histograms
+hist(x_coin)
+#########################################33plotting histograms
+hist(X_coin)
+#########################################33plotting histograms
+s<-c("H","T")
+X_coin<-sample(s,size=100,replace=TRUE)
+hist(X_coin)
+hist(as.numeric(X_coin))
+X_coin<-as.numeric(X_coin)
+X_coin
+mean(X_coin)
+s<-c("H","T")
+X_coin<-sample(s,size=100,replace=TRUE)
+for (i in 1:lenngth(X_coin))
+{
+if(X_coin[i]=="H")
+{
+X_coin[i]<-"0"
+}
+else if(X_coin[i]=="T")
+{
+X_coin[i]<-"1"
+}
+}
+s<-c("H","T")
+X_coin<-sample(s,size=100,replace=TRUE)
+for (i in 1:length(X_coin))
+{
+if(X_coin[i]=="H")
+{
+X_coin[i]<-"0"
+}
+else if(X_coin[i]=="T")
+{
+X_coin[i]<-"1"
+}
+}
+X_coin
+mean(as.numeric(X_coin))
+sd(X_coin)
+hist(as.numeric(X_coin))
+X_coin
+hist(X_coin)
+X_coin<-as.numeric(X_coin)
+hist(X_coin)
+set.seed(5030)
+S<-1:8
+S_oct<-sample(S, size=8, replace=TRUE)
+hist(S_oct)
+s<-c("H","T")
+X_coin<-sample(s,size=100,replace=TRUE)
+for (i in 1:length(X_coin))
+{
+if(X_coin[i]=="H")
+{
+X_coin[i]<-"0"
+}
+else if(X_coin[i]=="T")
+{
+X_coin[i]<-"1"
+}
+}
+mean(as.numeric(X_coin))
+X_coin<-as.numeric(X_coin)
+hist(X_coin)
+?scatterplot
+??scatterplot
+plot(X_coin=="H",X_coin=="T")
+for (i in 1:length(X_coin))
+{
+if(X_coin[i]=="H")
+{
+X_coin[i]<-"0"
+a<-c(a,X_coin[i])
+}
+else if(X_coin[i]=="T")
+{
+X_coin[i]<-"1"
+b<-c(b,X_coin[i])
+}
+}
+plot(a,b)
+a
+for (i in 1:length(X_coin))
+{
+if(X_coin[i]=="H")
+{
+X_coin[i]<-"0"
+a<-c(a,X_coin[i])
+}
+else if(X_coin[i]=="T")
+{
+X_coin[i]<-"1"
+b<-c(b,X_coin[i])
+}
+}
+a
+a<-vector()
+b<-vector()
+for (i in 1:length(X_coin))
+{
+if(X_coin[i]=="H")
+{
+X_coin[i]<-"0"
+a<-c(a,X_coin[i])
+}
+else if(X_coin[i]=="T")
+{
+X_coin[i]<-"1"
+b<-c(b,X_coin[i])
+}
+}
+a
+b
+?plot
+plot(X_coin)
+plot(S_oct)
+X_draw4 <- rbinom(500,40,.05)
+X_draw4
+X_draw4 <- rbinom(500,40,.05)
+Xmix<-vector()
+for(i in length(X_draw4))
+{
+Xmix<-c(Xmix,rnorm(1,mean=Xdraw4[i]*0.5,sd=(X_draw4[i]^2)*0.15))
+}
+X_draw4 <- rbinom(500,40,.05)
+Xmix<-vector()
+for(i in length(X_draw4))
+{
+Xmix<-c(Xmix,rnorm(1,mean=X_draw4[i]*0.5,sd=(X_draw4[i]^2)*0.15))
+}
+X_draw4 <- rbinom(500,40,.05)
+Xmix<-vector(length=0)
+for(i in length(X_draw4))
+{
+Xmix<-c(Xmix,rnorm(1,mean=X_draw4[i]*0.5,sd=(X_draw4[i]^2)*0.15))
+}
+Xmix
+X_draw4 <- rbinom(500,40,.05)
+Xmix<-vector(length=0)
+for(i in length(1:X_draw4))
+{
+Xmix<-c(Xmix,rnorm(1,mean=X_draw4[i]*0.5,sd=(X_draw4[i]^2)*0.15))
+}
+for(i in length(1:X_draw4))
+{
+Xmix<-c(Xmix,rnorm(1,mean=X_draw4[i]*0.5,sd=(X_draw4[i]^2)*0.15))
+}
+Xmix
+X_draw4 <- rbinom(500,40,.05)
+Xmix<-vector(length=0)
+for(i in 1:length(X_draw4))
+{
+Xmix<-c(Xmix,rnorm(1,mean=X_draw4[i]*0.5,sd=(X_draw4[i]^2)*0.15))
+}
+Xmix
+## Simulate 1000 students randomly guessing on a multiple choice test
+## Simulating 4 different examples of a binomial distribution
+x_binom = rbinom(1000, size = 10, prob= 0.25)   ## 4 possible answers, 10 questions
+hist(x_binom)
+x_binom
+x_binom = rbinom(1000, size = 10, prob= 0.125)  ## 8 possible answers, 10 questions
+hist(x_binom)
+## Use some plotting to figure out what the shape parameters are doing
+x_beta = rbeta(1000, shape1 = 1, shape2 = 1)
+hist(x_beta)
+x_beta = rbeta(1000, shape1 = 1, shape2 = 10)
+hist(x_beta)
+x_beta = rbeta(1000, shape1 = 10, shape2 = 1)
+hist(x_beta)
+x_beta = rbeta(1000, shape1 = 10, shape2 = 10)
+x_beta = rbeta(1000, shape1 = 1, shape2 = 0.5)
+hist(x_beta)
+hist(x_beta)
+x_norm = rnorm(1000, mean=5, sd=10)
+hist(x_norm)
+samp_size = 1000
+X_BAR = rep(NA, 5000)
+for(i in 1:5000){
+x_sample = rnorm(samp_size, mean = 5, sd = 10)
+X_BAR[i] = mean(x_sample)
+}
+hist(X_BAR)
+for(i in 1:5000){
+x_sample = rnorm(samp_size, mean = 5, sd = 10)
+X_BAR[i] = mean(x_sample)
+}
+hist(X_BAR)
+x_binom = rbinom(1000, size = 10, prob= 0.125)
+hist(x_binom)
+x_binom = rbinom(1000, size = 1000, prob= 0.125)
+hist(x_binom)
+##population distribution
+x_binom = rbinom(1000, size = 10, prob= 0.125)
+hist(x_binom)
+x_binom = rbinom(1000, size = 1000, prob= 0.125)
+hist(x_binom)
+##sample distribution
+samp_size = 1000
+X_BAR = rep(NA, 1000)
+for(i in 1:1000){
+x_sample = rbinom(samp_size, size=10, prob = 0.125)
+X_BAR[i] = mean(x_sample)
+}
+hist(X_BAR)
+X_BAR = rep(NA, 1000)
+for(i in 1:1000){
+x_sample = rbinom(samp_size, size=10, prob = 0.125)
+X_BAR[i] = mean(x_sample)
+}
+hist(X_BAR)
+samp_size = 10
+X_BAR = rep(NA, 1000)
+for(i in 1:1000){
+x_binom = rbinom(samp_size, size = 10, prob= 0.125)
+X_BAR[i] = mean(x_sample)
+}
+samp_size = 10
+X_BAR = rep(NA, 1000)
+for(i in 1:1000){
+x_binom = rbinom(samp_size, size = 10, prob= 0.125)
+X_BAR[i] = mean(x_sample)
+}
+hist(X_BAR)
+samp_size = 10
+X_BAR = rep(NA, 1000)
+samp_size = 10
+X_BAR = rep(NA, 1000)
+for(i in 1:1000){
+x_binom = rbinom(samp_size, size = 10, prob= 0.125)
+X_BAR[i] = mean(x_binom)
+}
+hist(X_BAR)
+samp_size = 100
+X_BAR = rep(NA, 5000)
+sd(X_BAR)
+for(i in 1:5000){
+x_binom = rbinom(samp_size, size = 10, prob= 0.125)
+X_BAR[i] = mean(x_binom)
+}
+hist(X_BAR, add=TRUE, col=rgb(0,0,1,alpha=0.3))
+#1
+a<-read.csv("LoanStats3c.csv",stringsAsFactors = FALSE)
+#2(a)
+df<-a[,c(9,10,23,6,3,14,15,21,81)]
+#2(b)
+str(df)
+#3
+View(df)
+df<-df[complete.cases(df), ]
+#1
+a<-read.csv("LoanStats3c.csv",stringsAsFactors = FALSE)
+#2(a)
+df<-a[,c(9,10,23,6,3,14,15,21,81)]
+a<-read.csv("LoanStats3c.csv",stringsAsFactors = FALSE)
+#2(a)
+df<-a[,c(9,10,23,6,3,14,15,21,81)]
+#2(b)
+str(df)
+#3
+View(df)
+df<-df[complete.cases(df), ]
+setwd("C:/Users/Lakshay Wadhwa/Desktop/Project_4")
+##########PARTB
+b<-read.csv("14zpallnoagi.csv",stringsAsFactors = FALSE)
+tax<-b[,c(3,16,17)]
+names(tax) <- c("zipcode", "total_tax_returns","total_income")
+tax$avg_income<-tax$total_income/tax$total_tax_returns
+summary(tax$avg_income)
+View(tax)
+tax_final <- tax %>%select(zipcode,avg_income) %>%group_by(zipcode) %>%summarize_all(mean)
+library(dplyr)
+tax_final <- tax %>%select(zipcode,avg_income) %>%group_by(zipcode) %>%summarize_all(mean)
+View(tax_final)
+boxplot(tax_final$avg_income)
+hist(tax_final$avg_income)
+hist(log(tax_final$avg_income))
+summary(tax_final$avg_income)
+hist(tax_final$avg_income)
+boxplot(log(tax_final$avg_income))
+boxplot(tax_final$avg_income)
+hist(tax_final$avg_income)
+hist(log(tax_final$avg_income))
+View(df_1)
+library(MASS)
+library(reshape2)
+library(reshape)
+a<-read.csv("LoanStats3c.csv",stringsAsFactors = FALSE)
+df<-a[,c(9,10,23,6,3,14,15,21,81,7,17,104)]
+df<-df[complete.cases(df),]
+df$int_rate = as.numeric(gsub("\\%", "", df$int_rate))
+##ii.	ZIP x Verification Status
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+View(df_1)
+df<-df[complete.cases(df),]
+df$int_rate = as.numeric(gsub("\\%", "", df$int_rate))
+##ii.	ZIP x Verification Status
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+library(dplyr)
+##ii.	ZIP x Verification Status
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+View(df)
+library(MASS)
+library(reshape2)
+library(reshape)
+##ii.	ZIP x Verification Status
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+df<-a[,c(9,10,23,6,3,14,15,21,81,7,17,104)]
+df<-df[complete.cases(df),]
+df$int_rate = as.numeric(gsub("\\%", "", df$int_rate))
+##ii.	ZIP x Verification Status
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+##ii.	ZIP x Verification Status
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+View(df)
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+View(df_1)
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+df_2 <- df %>%select(zip_code,verification_status,term,sub_grade,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code,term,sub_grade) %>% summarize_all(mean)
+View(df_2)
+library(dplyr)
+library(MASS)
+library(reshape2)
+library(reshape)
+##ii.	ZIP x Verification Status
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+library(MASS)
+library(reshape2)
+library(reshape)
+library(dplyr)
+setwd("C:/Users/Lakshay Wadhwa/Desktop/Project_4")
+a<-read.csv("LoanStats3c.csv",stringsAsFactors = FALSE)
+df<-a[,c(9,10,23,6,3,14,15,21,81,7,17,104)]
+df<-df[complete.cases(df),]
+df$int_rate = as.numeric(gsub("\\%", "", df$int_rate))
+##ii.	ZIP x Verification Status
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+tax_1 <- tax %>%select(zipcode,avg_income) %>%group_by(zipcode) %>%summarize_all(mean)
+a<-read.csv("LoanStats3c.csv",stringsAsFactors = FALSE)
+b<-read.csv("14zpallnoagi.csv",stringsAsFactors = FALSE)
+tax<-b[,c(3,16,17)]
+names(tax) <- c("zipcode", "total_tax_returns","total_income")
+tax$avg_income<-tax$total_income/tax$total_tax_returns
+tax_1 <- tax %>%select(zipcode,avg_income) %>%group_by(zipcode) %>%summarize_all(mean)
+library(dplyr)
+library(dplyr)
+## Factor variables
+factorvar1 <- melt(subset(df, select = c(zip_code, verification_status,grade, sub_grade, term, purpose, loan_status ) ),
+id.var = c('zip_code', 'verification_status'))
+factorvar1 <- factorvar1 %>% group_by(zip_code, verification_status, variable, value) %>% summarise(frequency = n()) %>% mutate(fraction = frequency/sum(frequency))
+##ii.	ZIP x Verification Status
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+View(df)
+##ii.	ZIP x Verification Status
+df_1 <- df%>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+##ii.	ZIP x Verification Status
+df_1 <- df%>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq)%>%group_by(verification_status,zip_code) %>%summarize_all(mean)
+##ii.	ZIP x Verification Status
+df_1 <- df %>%select(zip_code,verification_status,loan_amnt,annual_inc,int_rate,pct_tl_nvr_dlq) %>% group_by(verification_status,zip_code) %>%summarize_all(mean)
